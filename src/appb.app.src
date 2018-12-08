@@ -1,0 +1,11 @@
+{application, appb,
+             [{vsn, git},
+              {description,"appb"},
+              {modules,[]},
+              {registered,[]},
+              {applications,[compiler,
+                             kernel,
+                             stdlib
+                            ]},
+              {env,[]},
+              {mod,{appb,[]}}]}.
